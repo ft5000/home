@@ -72,9 +72,10 @@ const DragDrop = ({ children }) => {
       sensors={sensors} 
       collisionDetection={closestCenter} 
       onDragEnd={handleDragEnd}
+      touchAction="none"
     >
       <SortableContext items={items} strategy={sortingStrategy}>
-        <div className="dd-container">
+        <div className="dd-container" style={{ touchAction: "none" }}>
           {items.map((id) => (
             <SortableItem key={id} id={id}>
               {childrenArray[id]}
