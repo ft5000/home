@@ -82,10 +82,10 @@ function Home() {
 
       <div className="sym-cont">
         <Dragdrop>
-          <img src="/icon_sun_1.png" draggable={false} />
-          <img src="/icon_hand_1.png" draggable={false} />
-          <img src="/icon_radius_1.png" draggable={false} />
-          <img src="/icon_wheel_1.png" draggable={false} />
+          <img src="icon_sun_1.png" />
+          <img src="icon_hand_1.png" />
+          <img src="icon_radius_1.png" />
+          <img src="icon_wheel_1.png" />
         </Dragdrop>
         {/* <img src="/icon_sun_1.png" />
         <img src="/icon_hand_1.png" />
