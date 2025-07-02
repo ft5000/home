@@ -1,0 +1,26 @@
+@font-face {
+  font-family: "B612 Mono";
+  src: url("/B612Mono-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Coconat Bold";
+  src: url("/Coconat-Bold.woff2") format("woff2");
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "B612 Mono";
+  background-color: snow;
+  transition: background-color 0.2s;
+}
+
+canvas {
+  touch-action: auto !important;
+}
+
+h2 {
+  font-family: 'Coconat Bold';
+  font-size: 24pt;
+}
